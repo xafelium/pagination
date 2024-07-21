@@ -1,0 +1,69 @@
+.idea/
+*.iml
+.idea_modules/
+
+out/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+.env*.local
+
+# Temporary folders
+tmp/
+temp/
+
+# Build artefacts
+backend/dist
+
+# Config files
+config-files/dev/basic-auth-config*.yaml
+config-files/dev/server-dev*.yaml
+
+# E2E
+e2e/cypress/downloads
+e2e/cypress/screenshots
+e2e/cypress/videos
+
+# UI
+ui/.vscode
+
+# DEV certificates
+dev-certs/rootCA.*
+dev-certs/device.key
+dev-certs/*.dev.local.*
+
+# KinD kubeconfigs
+kubeconfigs
+my-dev-values.yaml
+
+# Docker Data
+docker-data
